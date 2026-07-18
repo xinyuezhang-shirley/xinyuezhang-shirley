@@ -8,7 +8,7 @@ I design systems that preserve meaning as it moves between people, language, and
 
 ---
 
-`PLATE 01 · semantic gravity field`
+<img alt="Plate 01 · semantic gravity field" src="https://raw.githubusercontent.com/xinyuezhang-shirley/xinyuezhang-shirley/main/assets/plate-01.svg" width="520">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xinyuezhang-shirley/xinyuezhang-shirley/main/assets/specimen-dark.png">
