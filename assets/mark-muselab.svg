@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" role="img" aria-label="MuseLab">
+<style><![CDATA[
+
+  svg{--ink:#7d746a;--ferric:#997419;}
+  @media (prefers-color-scheme: dark){svg{--ink:#a89e90;--ferric:#c99c3e;}}
+  .ink{stroke:var(--ink);stroke-width:1.7;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+  .fer{stroke:var(--ferric);stroke-width:1.7;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+  .ferf{fill:var(--ferric);}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+]]></style>
+
+<path class="fer" d="M12 12 L12 28"/>
+<path class="fer" d="M12 20 l3 -2.5 M12 20 l3 2.5"/>
+<path class="ink" d="M18 13 H32" opacity="0.85"/>
+<path class="ink" d="M18 20 H30" opacity="0.7"/>
+<path class="ink" d="M18 27 H27" opacity="0.55"/>
+</svg>

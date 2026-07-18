@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" role="img" aria-label="Echo">
+<style><![CDATA[
+
+  svg{--ink:#7d746a;--ferric:#997419;}
+  @media (prefers-color-scheme: dark){svg{--ink:#a89e90;--ferric:#c99c3e;}}
+  .ink{stroke:var(--ink);stroke-width:1.7;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+  .fer{stroke:var(--ferric);stroke-width:1.7;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+  .ferf{fill:var(--ferric);}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+]]></style>
+
+<circle class="ferf" cx="11" cy="20" r="2.4"/>
+<path class="ink" d="M15.77 12.37 A9 9 0 0 1 15.77 27.63" opacity="0.85"/>
+<path class="ink" d="M18.95 7.28 A15 15 0 0 1 18.95 32.72" opacity="0.55"/>
+<path class="ink" d="M22.13 2.19 A21 21 0 0 1 22.13 37.81" opacity="0.32"/>
+</svg>

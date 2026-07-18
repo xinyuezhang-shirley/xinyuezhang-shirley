@@ -1,4 +1,7 @@
-# Xinyue Zhang
+<h1><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xinyuezhang-shirley/xinyuezhang-shirley/main/assets/wordmark-dark.svg">
+  <img alt="Xinyue Zhang" src="https://raw.githubusercontent.com/xinyuezhang-shirley/xinyuezhang-shirley/main/assets/wordmark-light.svg" width="320">
+</picture></h1>
 
 `also Shirley`
 
@@ -22,15 +25,17 @@ _A settled field of the words my projects and writing keep returning to. Distanc
 
 ---
 
+<img alt="Plate 02 · four systems" src="https://raw.githubusercontent.com/xinyuezhang-shirley/xinyuezhang-shirley/main/assets/plate-02.svg" width="480">
+
 ## Selected work
 
-Echo — text becomes living visual fields.
+<img src="https://raw.githubusercontent.com/xinyuezhang-shirley/xinyuezhang-shirley/main/assets/mark-echo.svg" height="22" align="middle" alt=""> Echo — text becomes living visual fields.
 
-[MuseLab](https://github.com/xinyuezhang-shirley/MuseLab) — a workshop that reads a draft instead of rewriting it.
+<img src="https://raw.githubusercontent.com/xinyuezhang-shirley/xinyuezhang-shirley/main/assets/mark-muselab.svg" height="22" align="middle" alt=""> [MuseLab](https://github.com/xinyuezhang-shirley/MuseLab) — a workshop that reads a draft instead of rewriting it.
 
-Differ — where a designed experience breaks down across who and where.
+<img src="https://raw.githubusercontent.com/xinyuezhang-shirley/xinyuezhang-shirley/main/assets/mark-differ.svg" height="22" align="middle" alt=""> Differ — where a designed experience breaks down across who and where.
 
-[rag_project](https://github.com/xinyuezhang-shirley/rag_project) — retrieval and agents held to real constraints.
+<img src="https://raw.githubusercontent.com/xinyuezhang-shirley/xinyuezhang-shirley/main/assets/mark-rag.svg" height="22" align="middle" alt=""> [rag_project](https://github.com/xinyuezhang-shirley/rag_project) — retrieval and agents held to real constraints.
 
 ---
 
@@ -49,3 +54,5 @@ What is left of language after the sentence ends?
 Live instruments and notes → [portfolio](https://xinyuezhang-shirley.github.io)
 
 Echo · MuseLab · writing
+
+<img alt="" src="https://raw.githubusercontent.com/xinyuezhang-shirley/xinyuezhang-shirley/main/assets/closing.svg" width="200">

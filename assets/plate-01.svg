@@ -1,22 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-label="Plate 01 — semantic gravity field">
 <style><![CDATA[
-  /* Mid-tone defaults stay legible on BOTH GitHub themes even where an
-     img-context SVG ignores prefers-color-scheme; the media query only
-     refines, it is never a dependency for legibility. */
+
   svg{--label:#8c8276;--plate:#a39a8c;--ferric:#997419;}
   @media (prefers-color-scheme: dark){svg{--label:#b3a999;--plate:#8a8175;--ferric:#c99c3e;}}
-  .num{fill:var(--ferric);opacity:0;transform-box:fill-box;transform-origin:center;
-       animation:rise 1.3s cubic-bezier(.2,.7,.2,1) .1s forwards, breathe 7.5s ease-in-out 1.6s infinite;}
+  .num{fill:var(--ferric);transform-box:fill-box;transform-origin:center;
+       animation:rise 1.3s cubic-bezier(.2,.7,.2,1) .1s both, breathe 7.5s ease-in-out 1.6s infinite;}
   .plate{fill:var(--plate);}
   .label{fill:var(--label);}
-  .g{opacity:0;animation:fade .9s ease-out forwards;}
-  .rule{stroke:var(--ferric);stroke-width:1.1;fill:none;
-        stroke-dasharray:737.2;stroke-dashoffset:737.2;
-        animation:draw 1.4s cubic-bezier(.4,0,.2,1) .35s forwards;}
+  .g{opacity:1;animation:fade .9s ease-out both;}
+  .rule{stroke:var(--ferric);stroke-width:1.1;fill:none;stroke-dasharray:737.2;stroke-dashoffset:0;
+        animation:draw 1.4s cubic-bezier(.4,0,.2,1) .35s both;}
   @keyframes rise{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
   @keyframes breathe{0%,100%{opacity:1}50%{opacity:.8}}
-  @keyframes fade{to{opacity:1}}
-  @keyframes draw{to{stroke-dashoffset:0}}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  @keyframes draw{from{stroke-dashoffset:737.2}to{stroke-dashoffset:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
 ]]></style>
 <path class="num" d="M35.68 119.72Q27.89 119.72 21.82 116.15Q15.75 112.59 12.32 106.38Q8.88 100.18 8.88 92.13Q8.88 84.21 12.32 78.20Q15.75 72.20 21.89 68.76Q28.02 65.33 35.81 65.33Q43.60 65.33 49.47 68.83Q55.35 72.33 58.71 78.47Q62.08 84.60 62.08 92.52Q62.08 100.44 58.71 106.58Q55.35 112.72 49.41 116.22Q43.47 119.72 35.68 119.72M37.13 118.13Q45.84 118.13 50 111.40Q54.16 104.67 54.16 94.11Q54.16 84.74 51.39 78.73Q48.62 72.72 44.13 69.82Q39.64 66.92 34.36 66.92Q25.91 66.92 21.29 73.78Q16.67 80.64 16.67 91.07Q16.67 98.73 19.18 104.87Q21.69 111 26.31 114.57Q30.93 118.13 37.13 118.13M85.84 107.31L85.84 77.74Q85.84 73.91 85.05 71.93Q84.26 69.95 81.75 69.29Q79.24 68.63 74.09 68.63Q73.70 68.63 73.70 67.84Q73.70 67.05 74.09 67.05Q77.13 67.05 80.89 67.18Q84.65 67.31 88.88 67.31Q93.10 67.31 96.93 67.18Q100.76 67.05 103.66 67.05Q104.06 67.05 104.06 67.84Q104.06 68.63 103.66 68.63Q98.91 68.63 96.33 69.29Q93.76 69.95 92.84 71.93Q91.91 73.91 91.91 77.74L91.91 107.31Q91.91 111.14 92.70 113.12Q93.50 115.10 96.07 115.76Q98.64 116.42 103.66 116.42Q104.06 116.42 104.06 117.21Q104.06 118 103.66 118Q100.76 118 96.93 117.87Q93.10 117.74 88.88 117.74Q84.78 117.74 80.96 117.87Q77.13 118 74.09 118Q73.70 118 73.70 117.21Q73.70 116.42 74.09 116.42Q78.98 116.42 81.48 115.76Q83.99 115.10 84.92 113.12Q85.84 111.14 85.84 107.31"/>
 <g class="plate"><path class="g" style="animation-delay:0.15s" d="M159.40 46L158.14 46L158.14 35.53L161.95 35.53Q163.41 35.53 164.17 36.33Q164.94 37.12 164.94 38.55Q164.94 39.97 164.17 40.77Q163.41 41.56 161.95 41.56L159.40 41.56L159.40 46M159.40 36.63L159.40 40.47L161.92 40.47Q162.72 40.47 163.16 40.07Q163.60 39.67 163.60 38.94L163.60 38.16Q163.60 37.42 163.16 37.02Q162.72 36.63 161.92 36.63"/><path class="g" style="animation-delay:0.20s" d="M178.92 46L172.69 46L172.69 35.53L173.95 35.53L173.95 44.91L178.92 44.91"/><path class="g" style="animation-delay:0.25s" d="M193.54 46L192.21 46L191.32 43.02L187.65 43.02L186.76 46L185.46 46L188.67 35.53L190.33 35.53L193.54 46M191.02 41.92L189.55 36.87L189.42 36.87L187.95 41.92"/><path class="g" style="animation-delay:0.30s" d="M207.72 36.63L204.22 36.63L204.22 46L202.96 46L202.96 36.63L199.47 36.63L199.47 35.53L207.72 35.53"/><path class="g" style="animation-delay:0.35s" d="M220.99 46L214.54 46L214.54 35.53L220.99 35.53L220.99 36.63L215.80 36.63L215.80 40.15L220.81 40.15L220.81 41.24L215.80 41.24L215.80 44.91L220.99 44.91"/></g>
