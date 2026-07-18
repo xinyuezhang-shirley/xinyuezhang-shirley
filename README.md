@@ -18,6 +18,8 @@ I design systems that preserve meaning as it moves between people, language, and
 
 _A settled field of the words my projects and writing keep returning to. Distance from the center follows importance, not layout; the faint lines are real connections between the words. Paused after settling — an instrument, not an animation._
 
+<img alt="the shape my thinking makes" src="https://raw.githubusercontent.com/xinyuezhang-shirley/xinyuezhang-shirley/main/assets/note-field.svg" width="300">
+
 ---
 
 ## Selected work
